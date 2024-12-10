@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more</title>
+    <meta name="description" content="作品集">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lij5mzc.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+    <body>
+        <header>
+            <p class="btn-gnavi">
+                <span></span>
+                <span></span>
+                <span></span>
+              </p>
+                <!--ナビケーションメニュー-->
+                <nav id="global-navi">
+                    <ul class="menu">
+                        <li><a href="index.html#TOP">TOP</a></li>
+                        <li><a href="index.html#about">about</a></li>
+                        <li><a href="index.html#work">work</a></li>
+                        <li><a href="index.html#skill">skill</a></li>
+                        <li><a href="index.html#contact">contact</a></li>
+                    </ul>
+                </nav>
+            <script>
+            $(function(){
+                $('.btn-gnavi').on('click',function(){
+                  var rightVal = 0;
+                  if($(this).hasClass('hb-open')){
+                    rightVal = -300;
+                    $(this).removeClass('hb-open');
+                  }else{
+                    $(this).addClass('hb-open');
+                  }
+              
+                  $('#global-navi').stop().animate({
+                    right: rightVal
+                  }, 200);
+                });
+              });
+            </script>
+        </header>
+        <main>
+            <article>
+                <div>
+                    <h1 class="underline">MORE</h1>
+                    <p class="dc"><span>Kageyama Koyuki</span></p>
+                </div>
+                    <div class="image-more">
+                        <img src="../images/A98FB049-79A3-413D-8398-75B15B92ABB0.jpg" alt="まつぱピンク">
+                    </div>
+                    <div class="image-mores">
+                        <img src="../images/5D653195-AE12-4706-9DF5-B65099844DA3.jpg" alt="まつぱ青">
+                    </div>
+                    <div class="image-more0">
+                        <img src="../images/IMG_3180.jpg" alt="韓国風">
+                    </div>
+                    <div class="image-more1">
+                        <img src="../images/IMG_3174.jpg" alt="パリ">
+                    </div>
+                    <div class="image-more2">
+                        <img src="../images/IMG_3169.jpg" alt="オーダーまつげ">
+                    </div>
+                    <div class="image-more3">
+                        <img src="../images/IMG_3170.jpg" alt="HP">
+                    </div>
+                    <div class="image-more4">
+                        <img src="../images/66265916-AA29-49FE-A8B7-94E3FD6A2346.jpg" alt="チケット">
+                    </div>
+                    <div class="image-more5">
+                        <img src="../images/IMG_3171.jpg" alt="クーポン">
+                    </div>
+                    <div class="image-more6">
+                        <img src="../images/IMG_3172.jpg" alt="クーポン２">
+                    </div>
+                    <div class="image-more7">
+                        <img src="../images/IMG_3181.jpg" alt="メニュー">
+                    </div>
+                    <div class="image-more8">
+                        <img src="../images/kadai_009.jpg" alt="京都バナー">
+                    </div>
+                    <div class="image-more9">
+                        <img src="../images/kadai000.jpg" alt="バナーアレンジ">
+                    </div>
+                    </div>
+            </article>
+        </main>
