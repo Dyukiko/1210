@@ -14,11 +14,14 @@ body {
 
 img {
   width: 100%;
+  vertical-align: middle;
 }
 
 ul li {
   list-style: none;
+  padding: 0;
 }
+
 .menu{
   font-size: 20px;
   display: flex;
@@ -295,6 +298,18 @@ p.contact span {
 }
 .image-boxs img {
     display: block;
+}
+
+.app-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 0;
+  height: 50px;
+  width:  50px;
+}
+.app-icon li {
+  padding: 0 0 0 0;
 }
 
 .sns-link {
